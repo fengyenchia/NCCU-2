@@ -181,8 +181,8 @@ function draw() {
   stroke(255);
   fill(255);
   textSize(35);
-  let word3 = ["U", "n", "d", "e", "f", "i", "n", "e", "d"];
   strokeWeight(1);
+  let word3 = ["U", "n", "d", "e", "f", "i", "n", "e", "d"];
   for(let i=0; i<9; i++){
     text(word3[i], padding*7.5 + i * 75, height - padding * 20);
   }
