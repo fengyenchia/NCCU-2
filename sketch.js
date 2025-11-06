@@ -338,6 +338,6 @@ function sleep(ms) {
 
 function keyPressed(){
 	if(key == " "){
-		saveCanvas("N{}U", "png");
+		saveCanvas("N{}U-2", "png");
   }
 }
