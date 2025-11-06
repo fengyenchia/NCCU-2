@@ -33,10 +33,10 @@ function draw() {
   myItem1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
   myItem1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
   pop();
-  myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
-  myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
-  myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
-  myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
+  // myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
+  // myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
+  // myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
+  // myItem_1([180, random(95, 100), random(90, 100)], [-20, 5, 10])
 
   // 顏色 2
   // myItem2([210, random(50, 200), 100], [-20, 50, 10])
@@ -237,7 +237,7 @@ function myItem1(colorList, colorChange) {
     posY += noiseValue + sinValue;
 
     stroke(myColor, colorList[1], colorList[2]);
-    strokeWeight(1.8);
+    strokeWeight(2.25);
     rotate(PI / frameCount / 2);
     point(posX, posY);
   }
@@ -253,7 +253,7 @@ function myItem_1(colorList, colorChange) {
     let posX = i;
     let posY = height / 2;
 
-    let noiseValue = frameCount % 400 * noise(i * 0.01, frameCount / 20);
+    let noiseValue = frameCount % 500 * noise(i * 0.01, frameCount / 20);
     let sinValue = frameCount % 80 * sin(i * 0.008);
 
     posY += noiseValue + sinValue;
