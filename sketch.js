@@ -145,7 +145,7 @@ function draw() {
   text('(12/20 - 25)', width / 2, padding * 2);
   strokeWeight(0);
   textSize(30);
-  text('主辦單位 | 政大區塊鏈應用課程期末成果展籌備小組、c2x3', width / 2, height - padding * 3);
+  text('主辦單位 | 政大區塊鏈應用課程期末成果展籌備小組、超級浪、c2x3', width / 2, height - padding * 3);
  
   
   // 超級浪：中山科藝所 Hyper Wave: ZITA Zhongshan Institute of Techno-Art
